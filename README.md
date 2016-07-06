@@ -32,13 +32,13 @@ The structure is as follows: -
 
 * `<language>` - top level element with `name` attribute (e.g. `french`) and a list
    of special characters which can be access via the UI.  This contains one or more  ...
-  * `<course>` elements - contains a `name` attribute e.g. `Level 1`.  These contain one or more  ...
-    * `<lesson>` elements - contains a `name` attribute which could be each week of the course (e.g. `Week 1`).  
+* `<course>` elements - contains a `name` attribute e.g. `Level 1`.  These contain one or more  ...
+* `<lesson>` elements - contains a `name` attribute which could be each week of the course (e.g. `Week 1`).  
   These contain one or more  ...
-      * `<topic>` elements - contains `name` attribute describe topic of learning e.g. 
+* `<topic>` elements - contains `name` attribute describe topic of learning e.g. 
   `Conversation (Introducing yourself)`.  There could be 3 or 4 of these for each lesson.  
   These contains one or more  ...
-        * `<item>` elements - contains `q` and `a` (question and answer) attributes.  
+* `<item>` elements - contains `q` and `a` (question and answer) attributes.  
 
 The application reads this XML file and provides the user the ability to quickly test what they learned.
 
