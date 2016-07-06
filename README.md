@@ -29,19 +29,19 @@ file as follows: -
 </langauge>
 ```
 
-The elements are: -
+The structure is as follows: -
 
 * `<language>` - top level element with `name` attribute (e.g. `french`) and a list
    of special characters which can be access via the UI.  This contains one or more  ...
-* `<course>` - contains a `name` attribute e.g. `Level 1`.  These contain one or more  ...
-* `<lesson>` - contains a `name` attribute which could be each week of the course (e.g. `Week `).  
+  * `<course>` elements - contains a `name` attribute e.g. `Level 1`.  These contain one or more  ...
+    * `<lesson>` elements - contains a `name` attribute which could be each week of the course (e.g. `Week 1`).  
   These contain one or more  ...
-* `<topic>` - contains `name` attribute describe topic of learning e.g. 
+      * `<topic>` elements - contains `name` attribute describe topic of learning e.g. 
   `Conversation (Introducing yourself)`.  There could be 3 or 4 of these for each lesson.  
   These contains one or more  ...
-* `<item>` - contains `q` and `a` (question and answer) attributes.  
+        * `<item>` elements - contains `q` and `a` (question and answer) attributes.  
 
-The application reads this XML and provides the user to quickly test what they learned.
+The application reads this XML file and provides the user the ability to quickly test what they learned.
 
 
 GET STARTED
@@ -52,7 +52,7 @@ the latest release of `boblang.jar` to a folder on your computer.
 
 [BobLang GitHub Releases](https://github.com/bobmarks/boblang/releases)
 
-Ensure [Java](https://java.com/download) is installed and run the file as follows: -
+If [Java](https://java.com/download) is installed, BobLang can be run as follows: -
 
 ```bash
 java -jar boblang.jar
@@ -77,19 +77,27 @@ Once these are downloaded and properly installed you can download the code via a
 perform a maven build and run the Java _self-contained-jar_ `boblang.jar` which maven builds in the
 `target` folder.
 
-1. GIT Clone 
+### 1. GIT Clone 
 
 ```bash
-cd workspace           # folder of your choice
+# Change to a folder of your choice
+cd workspace
+
+# Download source from boblang repo on GitHub
 git clone https://github.com/bobmarks/boblang.git
 ```
     
-2. Maven Build 
+### 2. Maven Build 
 
 ```bash
+# Build project using Maven
 mvn install
+
+# Run boblang
 java -jar target/boblang.jar
 ```
+
+You can also run the application through your IDE of choice e.g. Eclipse.
 
 CONTACT
 -------
