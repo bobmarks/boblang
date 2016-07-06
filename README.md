@@ -1,9 +1,11 @@
 BOB LANG
 ========
 
-This little Java UI application was created to help me learn French and can be used to help learn any language.  
+This little Java UI application was created to help me learn French and can be used to help learn any 
+language.  
 
-![Screenshot of BobLang](https://github.com/bobmarks/boblang/raw/master/images/screenshot.png "Screenshot of BobLang")
+![Screenshot of BobLang](https://github.com/bobmarks/boblang/raw/master/images/screenshot.png 
+"Screenshot of BobLang")
 
 It is programmed using the Java Swing library and reads an `lang.xml` as input.  The syntax of the 
 file as follows: -
@@ -45,12 +47,12 @@ The application reads this XML and provides the user to quickly test what they l
 GET STARTED
 -----------
 
-If you are interested in boblang and not developing then you can download to following file to a folder
-on your computer.
+If you are only interested in running BobLang (and not developing it) then simply download 
+the latest release of `boblang.jar` to a folder on your computer. 
 
-[a https://github.com/bobmarks/boblang/releases/download/v0.0.1/boblang.jar](https://github.com/bobmarks/boblang/releases/download/v0.0.1/boblang.jar)
+[BobLang GitHub Releases](https://github.com/bobmarks/boblang/releases)
 
-Ensure [a Java](https://java.com/download) is installed and run the file as follows: -
+Ensure [Java](https://java.com/download) is installed and run the file as follows: -
 
 ```bash
 java -jar boblang.jar
@@ -59,13 +61,20 @@ java -jar boblang.jar
 **NOTE:** BobLang won't work unless there is a valid `lang.xml` at the same location.  
 You can either create your own or use the `lang.xml` which is included with boblang.  
 A GitHub link to the latest version is available   
-[a here](https://raw.githubusercontent.com/bobmarks/boblang/master/lang.xml).
+[here](https://raw.githubusercontent.com/bobmarks/boblang/master/lang.xml).
 
 DEVELOP
 -------
 
-Ensure GIT, Java and Maven are installed and setup properly.  Then git clone, maven
-build and run the Java _self-contained-jar_ `boblang.jar` which maven builds in the
+Ensure you have the following: -
+
+1. [GIT](https://git-scm.com/downloads) - used for downloading and contributing new source
+2. [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) - is 
+  required to build the BobLang project. and Maven are installed and setup properly.  
+3. [Maven](https://maven.apache.org/download.cgi) - required for dependancies.
+
+Once these are downloaded and properly installed you can download the code via a git clone, 
+perform a maven build and run the Java _self-contained-jar_ `boblang.jar` which maven builds in the
 `target` folder.
 
 1. GIT Clone 
