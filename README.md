@@ -45,8 +45,21 @@ The application reads this XML and provides the user to quickly test what they l
 GET STARTED
 -----------
 
-If you are interested in developing this application I recommend having both 
-GIT, Eclipse and Maven installed.
+If you are interested in boblang and not developing then you can download to following file to a folder
+on your computer.
+
+[a https://github.com/bobmarks/boblang/releases/download/v0.0.1/boblang.jar](https://github.com/bobmarks/boblang/releases/download/v0.0.1/boblang.jar)
+
+Ensure [a Java](https://java.com/download) is installed and run the file as follows: -
+
+```bash
+java -jar boblang.jar
+```
+
+**NOTE:** BobLang won't work unless there is a valid `lang.xml` at the same location.  
+You can either create your own or use the `lang.xml` which is included with boblang.  
+A GitHub link to the latest version is available   
+[a here](https://raw.githubusercontent.com/bobmarks/boblang/master/lang.xml).
 
 DEVELOP
 -------
