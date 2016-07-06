@@ -7,8 +7,7 @@ language.
 ![Screenshot of BobLang](https://github.com/bobmarks/boblang/raw/master/images/screenshot.png 
 "Screenshot of BobLang")
 
-It is programmed using the Java Swing library and reads an `lang.xml` as input.  The syntax of the 
-file as follows: -
+It is programmed using the Java Swing library and reads an `lang.xml` as input: -
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -29,7 +28,7 @@ file as follows: -
 </langauge>
 ```
 
-The structure is as follows: -
+The structure is as follows: -  
 
 * `<language>` - top level element with `name` attribute (e.g. `french`) and a list
    of special characters which can be access via the UI.  This contains one or more  ...
