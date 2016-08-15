@@ -6,6 +6,11 @@
 	<artifactId>boblang</artifactId>
 	<version>0.0.1</version>
     <packaging>jar</packaging>
+
+    <description>This little Java UI application was created to help me learn French and can be used to help learn any 
+language.</description>
+    <name>BobLang</name>
+    <url>https://github.com/bobmarks</url>
     
 	<dependencies>
         <dependency>
@@ -58,5 +63,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
